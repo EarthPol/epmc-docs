@@ -30,6 +30,7 @@ Sometimes, things don't always go right. Go through these steps if you have issu
    - You have a Minecraft Account
    - You are connecting using Minecraft Java edition.
    - The EarthPol Server is online: Check Here
+   - Make sure you are not using Lunar Client
 
 Still having issues? You can try to change your DNS server to Cloudflare's Name Server Services.
 
@@ -124,7 +125,7 @@ If you do not want to participate in siege wars, you can toggle your town or nat
 
 # Keep Inventory
 
-There is no keep inventory. You drop everything when you die :skull_and_crossbones: in the wildreness or a pvp area. 
+There is no keep inventory. You drop everything when you die :skull_and_crossbones:. 
 
 If you die :skull_and_crossbones:, you will lose your items at that location and be teleported back to your town spawn, unless you have a `/home` set inside your town.
 If you don’t have a town, you’ll be teleported to the world spawn. There is no `/back`.
@@ -160,14 +161,16 @@ There is no random teleport (`/rtp` and `/wild` disabled) or warps.
 
 Money = Gold
 
-The gold that is in your inventory is the gold to your name.
+The gold that is in your inventory and your balance is the gold to your name.
 
    - Mine it 
    - Vote
    - Sell items for money
 
-You can store your gold in your chests and enderchests. 
-There is no virtual currency (no `/sell` or `/pay`), physical gold is to be used for transfer of money. - **:hammer_and_wrench:CURRENTLY GETTING FIXED:hammer_and_wrench:**
+You can store your gold in your chests and enderchests, or in your virtual balance. 
+
+Transfer your physical gold into virtual currency using `/sell hand`.
+You can also use `/pay (player name)(amount)` to send money to someone.
 
 
 # Food
